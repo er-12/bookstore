@@ -9,12 +9,12 @@
 	<h3>Books</h3>
 	<table>
 		<tr>
-        <th>Title</th>
-        <th>Author</th>
-        <th>Year</th>
-        <th>ISBN</th>
-        <th>Price</th>
-      	</tr>
+	       	<th>Title</th>
+	        <th>Author</th>
+	        <th>Year</th>
+	        <th>ISBN</th>
+	        <th>Price</th>
+		</tr>
 	
 		<tr th:each="book : ${bookList}">
 			<td th:text="${book.title}"></td>
